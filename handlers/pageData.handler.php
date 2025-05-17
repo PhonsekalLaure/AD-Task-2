@@ -1,88 +1,25 @@
 <?php
-$navList = [
-    ["label" => "Home", "url" => "/"],
-    ["label" => "News", "url" => "/contact"],
-    ["label" => "About Us", "url" => "/about"],
-    ["label" => "Contact Us", "url" => "/contact"],
-];
+    $menu = [
+        "Home" => "/index.php",
+        "Pets" => "/pages/pets/index.php",
+        "About Us" => "/pages/about/index.php"
+    ];
 
-$tableColumnNames = [
-    "Product Name",
-    "Color",
-    "Category",
-    "Price",
-];
+    $cats = [
+        ["name" => "Oragne", "color" => "blue", "age" => 21, "image" => "/pages/pets/assets/img/orange.gif"],
+        ["name" => "George Bush", "color"=> "white", "age" => 2, "image" => "/pages/pets/assets/img/george.gif"],
+        ["name" => "Laughy", "color"=> "orange", "age" => 6, "image"=> "/pages/pets/assets/img/laughy.gif"],
+        ["name"=> "Tung Tung", "color"=> "white", "age" => 8, "image"=> "/pages/pets/assets/img/tung tung.gif"]
+    ];
 
-$productList = [
-    [
-        "productName" => "Apple MacBook Pro 17",
-        "details" => [
-            "color" => ["Silver", "Black"],
-            "category" => "Laptop",
-            "price" => 2999,
-        ],
-    ],
-    [
-        "productName" => "Microsoft Surface Pro",
-        "details" => [
-            "color" => ["White", "Black"],
-            "category" => "Laptop",
-            "price" => 1999,
-        ],
-    ],
-    [
-        "productName" => "Dell XPS 13",
-        "details" => [
-            "color" => ["Silver", "White"],
-            "category" => "Laptop",
-            "price" => 1499,
-        ],
-    ],
-    [
-        "productName" => "HP Spectre x360",
-        "details" => [
-            "color" => ["Black", "Blue"],
-            "category" => "Laptop",
-            "price" => 1599,
-        ],
-    ],
-    [
-        "productName" => "Lenovo ThinkPad X1 Carbon",
-        "details" => [
-            "color" => ["Black"],
-            "category" => "Laptop",
-            "price" => 1799,
-        ],
-    ],
-    [
-        "productName" => "Asus ROG Zephyrus G14",
-        "details" => [
-            "color" => ["Gray", "White"],
-            "category" => "Gaming Laptop",
-            "price" => 2199,
-        ],
-    ],
-    [
-        "productName" => "Acer Swift 3",
-        "details" => [
-            "color" => ["Silver"],
-            "category" => "Laptop",
-            "price" => 999,
-        ],
-    ],
-    [
-        "productName" => "Google Pixelbook Go",
-        "details" => [
-            "color" => ["Black", "Pink"],
-            "category" => "Chromebook",
-            "price" => 849,
-        ],
-    ],
-];
+    $dogs = [
+        ["name" => "Browny", "color"=> "Brown", "age"=> "11", "image" => "/pages/pets/assets/img/browny.gif"],
+        ["name"=> "Blud", "color"=> "Black", "age" => "19", "image" => "/pages/pets/assets/img/blud.gif"],
+        ["name"=> "Snow", "color"=> "White", "age" => "5", "image"=> "/pages/pets/assets/img/Snow.gif"],
+        ["name"=> "Cupcake", "color"=> "Brown", "age" => "7", "image"=> "/pages/pets/assets/img/cupcake.gif"],
+    ];
 
-$accounts = array(
-    "https://facebook.com",
-    "https://instagram.com",
-    "https://gmail.com",
-
-);
+    $others = [
+        ["name"=> "Tralalero", "color"=> "Blue", "age" => "1000","image"=> "/pages/pets/assets/img/tralalero.gif"],
+        ["name"=> "Patapim", "color"=> "Green/Brown", "age" => "30","image"=> "/pages/pets/assets/img/patapim.gif"]
+    ];
