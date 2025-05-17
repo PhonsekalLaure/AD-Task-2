@@ -9,7 +9,7 @@
         ["name" => "Oragne", "color" => "blue", "age" => 21, "image" => "/pages/pets/assets/img/orange.gif"],
         ["name" => "George Bush", "color"=> "white", "age" => 2, "image" => "/pages/pets/assets/img/george.gif"],
         ["name" => "Laughy", "color"=> "orange", "age" => 6, "image"=> "/pages/pets/assets/img/laughy.gif"],
-        ["name"=> "Tung Tung", "color"=> "white", "age" => 8, "image"=> "/pages/pets/assets/img/tung tung.gif"]
+        ["name"=> "Tung Tung", "color"=> "white", "age" => 8, "image"=> "/pages/pets/assets/img/tungtung.gif"]
     ];
 
     $dogs = [
