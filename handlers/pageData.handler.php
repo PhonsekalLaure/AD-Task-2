@@ -23,3 +23,8 @@
         ["name"=> "Tralalero", "color"=> "Blue", "age" => "1000","image"=> "/pages/pets/assets/img/tralalero.gif"],
         ["name"=> "Patapim", "color"=> "Green/Brown", "age" => "30","image"=> "/pages/pets/assets/img/patapim.gif"]
     ];
+    $categories = [
+        "cats" => $cats,
+        "dogs" => $dogs,
+        "other" => $others
+    ];

@@ -1,5 +1,5 @@
 <?php
-    function displayPet($pets, $type){
+    function displayPets($pets, $type){
         if($type == "cats"){
             $backgroundcolor = "rgb(245, 196, 156)";
         }
