@@ -2,13 +2,13 @@
 function nav($menu)
 {
     ?>
-    <header>
+    <nav>
         <?php
             foreach ($menu as $title => $link){
                 echo "<li><a href = '$link'>$title</a></li>";
             }
         ?>
-    </header>
+    </nav>
     <?php
 }
 ?>
